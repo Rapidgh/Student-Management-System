@@ -18,7 +18,7 @@ public class StudentManagement {
         System.out.println(studentName + "  " + courseName);
 
         Random rand = new Random();
-        GPA = 3.0 + (rand.nextDouble() * 2); 
+        GPA = 3.0 + (rand.nextDouble() * 1.5); 
         System.out.println("GPA calculated: " + GPA);
         
         System.out.println("Student ID: " + studentID);  
